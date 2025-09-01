@@ -1,8 +1,6 @@
-export const pageName = 'Golarzep';
-export const phoneNumber = '+525511447994';
-export const address =
-  'RIO POO NUMERO 43 COLONIA CUAUHTEMOC CP 6500 CUAUHTEMOC CIUDAD DE MEXICO';
-export const email = 'info@golarzep.com';
+export const pageName = 'Detroit';
+
+export const email = 'info@detroit.com';
 import { IoCall, IoFileTraySharp, IoMail } from 'react-icons/io5';
 
 export const navData = [
@@ -43,21 +41,6 @@ export const footerData = [
   },
 ];
 
-export const contactData = [
-  {
-    Icon: IoCall,
-    text: phoneNumber,
-  },
-  {
-    Icon: IoFileTraySharp,
-    text: address,
-  },
-  {
-    text: email,
-    Icon: IoMail,
-  },
-];
-
 export const benefitsData = [
   {
     id: 1,
@@ -82,270 +65,389 @@ export const benefitsData = [
   },
 ];
 
-export const productsData = [
-  {
-    id: 1,
-    price: '45.00',
-    name: 'CREATIVE WRITING',
-    description:
-      'Creative writing helps businesses stand out with unique content that engages their audience and cultivates brand loyalty. It can also inspire innovation and fresh perspectives.',
-    image: '/images/social-3.jpg',
-    stock: 1000,
-    features: [
-      'Unique and engaging content creation',
-      'Brand storytelling techniques',
-      'Audience engagement strategies',
-      'Innovation and creativity in writing',
-      'Effective communication through written word',
-    ],
-  },
-  {
-    id: 2,
-    price: '100.00',
-    name: 'ADVERTISING CONTENT',
-    description:
-      'Advertising content helps businesses promote their products or services and increase sales. It can be used to target specific audiences and create memorable brand experiences.',
-    image: '/images/business-2.jpg',
-    stock: 1000,
-    features: [
-      'Targeted advertising strategies',
-      'Brand messaging and positioning',
-      'Conversion-focused content creation',
-      'Measurable advertising campaign results',
-      'Memorable and impactful ad campaigns',
-    ],
-  },
-  {
-    id: 3,
-    price: '150.00',
-    name: 'SOCIAL MEDIA CONTENT',
-    description:
-      'Social media content helps businesses build their online presence and engage with their audience. It can be used to showcase products or services, share company news and promote brand loyalty.',
-    image: '/images/social-2.jpg',
-    stock: 1000,
-    features: [
-      'Social media platform optimization',
-      'Content calendar planning and scheduling',
-      'Audience targeting and engagement',
-      'Visual content creation (images, videos)',
-      'Analytics and performance tracking',
-    ],
-  },
-  {
-    id: 4,
-    price: '100.00',
-    name: 'CORPORATE CONTENT',
-    description:
-      'Corporate content helps businesses establish their brand identity and communicate their values to stakeholders. It can be used for internal communication, investor relations, and public relations.',
-    image: '/images/business-1.jpg',
-    stock: 1000,
-    features: [
-      'Brand identity development',
-      'Internal communication materials',
-      'Investor relations documents',
-      'Public relations content creation',
-      'Corporate storytelling and messaging',
-    ],
-  },
-  {
-    id: 5,
-    price: '60.00',
-    name: 'VIDEO PRODUCTION',
-    description:
-      'Video production is a powerful tool for businesses to convey their message effectively. This course covers video shooting, editing, and storytelling techniques to create compelling videos that captivate the audience.',
-    image: '/images/video.jpg',
-    stock: 8,
-    content: [
-      'Video shooting techniques',
-      'Video editing using industry-standard software',
-      'Storytelling through video',
-      'Effective video marketing strategies',
-      'Scriptwriting for video content',
-    ],
-  },
-  {
-    id: 6,
-    price: '55.00',
-    name: 'SOCIAL MEDIA MARKETING',
-    description:
-      'Social media marketing is essential for businesses to reach and engage their target audience. This course provides strategies for effective social media campaigns, content creation, and analytics to drive business growth.',
-    image: '/images/social-media.jpg',
-    stock: 3,
-    content: [
-      'Social media strategy development',
-      'Creating compelling social media content',
-      'Audience targeting and engagement',
-      'Social media advertising techniques',
-      'Analytics and measurement for social media success',
-    ],
-  },
-  {
-    id: 7,
-    price: '35.00',
-    name: 'GRAPHIC DESIGN',
-    description:
-      'Graphic design plays a crucial role in branding and visual communication. This course teaches the fundamentals of graphic design, including color theory, typography, layout design, and using design software.',
-    image: '/images/graphic.jpg',
-    stock: 10,
-    content: [
-      'Principles of graphic design',
-      'Color theory and typography',
-      'Layout design and composition',
-      'Using industry-standard design software',
-      'Creating visually appealing designs',
-    ],
-  },
-  {
-    id: 8,
-    price: '25.00',
-    name: 'BRAND STORYTELLING',
-    description:
-      'Brand storytelling is a powerful marketing technique that helps businesses connect with their audience on a deeper level. This course explores the art of crafting compelling brand stories that resonate with customers and leave a lasting impact.',
-    image: '/images/branding.jpg',
-    stock: 7,
-    content: [
-      'Understanding the importance of brand storytelling',
-      'Identifying brand values and key messages',
-      'Crafting a compelling brand narrative',
-      'Utilizing storytelling techniques across different platforms',
-      'Measuring the effectiveness of brand storytelling',
-    ],
-  },
-];
+export const dataSite = {
+  name: 'Detroit',
+  url: 'https://es.wiktionary.org/wiki/hol',
+  telephone: '5516455347',
+  email: '',
+  address:
+    'AV INSURGENTES SUR 1392, PISO 3 INTERIOR B, ACTIPAN, BENITO JUAREZ, CIUDAD DE MEXICO, C.P. 03230',
+  description:
+    'Our law firm specializes in providing comprehensive legal advice and professional representation to individuals, businesses, and organizations seeking reliable and effective legal solutions. Through our website, we offer clear and accessible information about our services, practice areas, and the expertise of our attorneys.',
+  subtitle: 'Protecting Your Rights, Securing Your Future',
+  image_hero:
+    'https://cms-webserver-statics.s3.amazonaws.com/media/websites/detroit_1_.jpg',
+  image_hero2:
+    'https://cms-webserver-statics.s3.amazonaws.com/media/websites/detroit_2_.jpg',
+  iconImage:
+    'https://cms-webserver-statics.s3.amazonaws.com/media/websites/detroitlegalconsultingsderlde-cv-high-resolution-logo.png',
+  info: [
+    {
+      title: 'Practice Areas',
+      description:
+        'Civil, corporate, labor, criminal, family, and administrative law.',
+    },
+    {
+      title: 'Online Consulting',
+      description:
+        'Options to schedule appointments and receive legal guidance virtually or in person.',
+    },
+    {
+      title: 'Legal Resources',
+      description:
+        'Articles, guides, and regulatory updates to keep clients informed.',
+    },
+    {
+      title: 'Personalized Support',
+      description:
+        'A direct contact space for quick inquiries, service quotes, or document reviews.',
+    },
+    {
+      title: 'Values',
+      description:
+        'Comprehensive legal advice and professional representation to individuals, businesses, and organizations seeking reliable and effective legal solutions.',
+    },
+  ],
+  services: [
+    {
+      title: 'Legal Advisory and Consultation',
+      description:
+        'Personalized guidance on civil, criminal, corporate, labor, and family law matters, tailored to each client’s situation.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_3_.jpg',
+    },
+    {
+      title: 'Contract Drafting and Review',
+      description:
+        'Preparation, analysis, and negotiation of contracts and legal agreements to ensure compliance and protect client interests.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_4_.jpg',
+    },
+    {
+      title: 'Litigation and Legal Representation',
+      description:
+        'Professional defense and representation before courts, arbitration panels, and government authorities.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_5_.jpg',
+    },
+    {
+      title: 'Regulatory Compliance and Risk Management',
+      description:
+        'Assistance for individuals and businesses in complying with legal requirements while minimizing risks and liabilities.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_6_.jpg',
+    },
+    {
+      title: 'Mediation and Dispute Resolution',
+      description:
+        'Alternative conflict resolution methods, including mediation and arbitration, to reach effective solutions outside of court.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_7_.jpg',
+    },
+    {
+      title: 'Intellectual Property Protection',
+      description:
+        'Advisory and legal services for the registration, enforcement, and defense of trademarks, copyrights, and patents to safeguard creative and business assets.',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/services/detroit_8_.jpg',
+    },
+  ],
+  references: [
+    {
+      name: 'Carlos M.Business Owner',
+      description:
+        'The team provided outstanding legal advice during our business merger. Their Due Diligence Report was detailed, clear, and helped us avoid costly mistakes.',
+      rating: 5,
+      image: null,
+    },
+    {
+      name: 'Sarah L.HR Manager',
+      description:
+        'I was impressed by their professionalism and quick response. They drafted and reviewed my employment contracts efficiently and explained every detail.',
+      rating: 5,
+      image: null,
+    },
+    {
+      name: 'Jonathan R.Private Client',
+      description:
+        'Thanks to their litigation support, I felt confident throughout my court case. They fought for my rights with dedication and achieved a favorable outcome.',
+      rating: 5,
+      image: null,
+    },
+    {
+      name: 'Emily K, Entrepreneur',
+      description:
+        'The law firm helped us with intellectual property registration. Their guidance ensured our brand is fully protected internationally.',
+      rating: 5,
+      image: null,
+    },
+    {
+      name: 'Michael T,CEO of a Tech Startup',
+      description:
+        'We use their compliance audit service regularly. It gives us peace of mind knowing that our company is operating within all legal requirements.',
+      rating: 5,
+      image: null,
+    },
+  ],
+  products: [
+    {
+      id: 930,
+      name: 'Due Diligence Report Service',
+      category: null,
+      description:
+        'The Due Diligence Report Service provides a thorough and structured legal, financial, and operational review to support informed decision-making in mergers, acquisitions, partnerships, and major investments. This product ensures that clients have a complete understanding of potential risks, obligations, and opportunities before closing any transaction.',
+      price: '178.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit__16_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 928,
+      name: 'Legal Risk Assessment Report',
+      category: null,
+      description:
+        'The Legal Risk Assessment Report is a comprehensive analysis designed to help businesses identify, evaluate, and mitigate potential legal risks. It provides a structured evaluation of contracts, policies, regulatory compliance, and operational practices to ensure your company operates within legal boundaries and minimizes exposure to liability.',
+      price: '250.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit._14.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 929,
+      name: 'Intellectual Property Registration Pack',
+      category: null,
+      description:
+        'The Intellectual Property (IP) Registration Pack is a comprehensive service package designed to help businesses, startups, and creators protect their innovations, brands, and creative works. It provides end-to-end support in registering trademarks, copyrights, and patents, ensuring that intellectual property rights are legally secured and enforced.',
+      price: '79.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_15_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 923,
+      name: 'Business Formation Package',
+      category: null,
+      description:
+        'Is a comprehensive service designed for entrepreneurs and companies seeking to establish a legal entity quickly, securely, and in full compliance with current regulations.',
+      price: '30.00',
+      stock: 100,
+      content:
+        'Personalized Initial Consultation,Evaluation of the most suitable entity type (LLC, Corporation, Partnership, etc.),Analysis of legal, tax, and liability protection benefits,Drafting and Filing of Legal Documents,Preparation of bylaws, articles of incorporation, or other required documents,Official filing with the relevant government authority,Business Name Search and Reservation,Verification of business name availability,Reservation of the name with the commercial registry or regulating entity.',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_9_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 924,
+      name: 'Contract Templates Bundle',
+      category: null,
+      description:
+        'The Contract Templates Bundle is a legal package designed for businesses, entrepreneurs, and professionals who need clear, reliable, and ready-to-use contracts. This collection provides customizable documents that cover common business scenarios, helping protect legal interests and minimize risks without the need to draft agreements from scratch.',
+      price: '45.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detraoit_10.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 925,
+      name: 'Compliance Audit Kit',
+      category: null,
+      description:
+        'The Compliance Audit Kit is a comprehensive toolkit designed for businesses to assess, monitor, and ensure compliance with legal, regulatory, and industry standards. It provides structured guidance, checklists, and templates to identify gaps, mitigate risks, and maintain regulatory adherence effectively. Ideal for companies seeking to streamline internal audits and strengthen their compliance programs.',
+      price: '60.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_11.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 926,
+      name: 'Startup Legal Toolkit',
+      category: null,
+      description:
+        'The Startup Legal Toolkit is a comprehensive package designed for entrepreneurs and early-stage startups to handle legal matters efficiently. It provides essential legal documents, templates, and guidance to help startups establish a strong legal foundation, protect intellectual property, and ensure regulatory compliance while minimizing costs and risks.',
+      price: '144.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit._12.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 931,
+      name: 'Legal Document Review',
+      category: null,
+      description:
+        'Detailed analysis of contracts, agreements, or policies before signing to ensure client protection.',
+      price: '10.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_17_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 932,
+      name: 'Trademark Search and Filing',
+      category: null,
+      description:
+        'Trademark Search and Filing\r\nAssistance with researching, registering, and maintaining trademarks.',
+      price: '25.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_18.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 927,
+      name: 'Employee Handbook Drafting Service',
+      category: null,
+      description:
+        'The Employee Handbook Drafting Service provides businesses with a professionally crafted employee handbook that clearly communicates company policies, procedures, and workplace expectations. This service helps organizations establish consistency, ensure compliance with labor laws, and create a positive work environment.',
+      price: '200.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroti._13.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 933,
+      name: 'Employment Contract Drafting',
+      category: null,
+      description:
+        'Tailor made employment agreements that comply with labor laws.',
+      price: '13.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_19.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 934,
+      name: 'Privacy Policy and Terms of Service Drafting',
+      category: null,
+      description:
+        'Customized policies for websites, apps, and businesses to ensure compliance with data protection laws.',
+      price: '16.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_20.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 935,
+      name: 'Corporate Governance Consultation',
+      category: null,
+      description:
+        'Advisory on board structures, shareholder agreements, and internal regulations.',
+      price: '15.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_21.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 936,
+      name: 'Litigation Support Package',
+      category: null,
+      description:
+        'Preparation of legal briefs, evidence review, and case strategy planning.',
+      price: '18.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_22.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 937,
+      name: 'Immigration Legal Assistance',
+      category: null,
+      description:
+        'Guidance on visas, residency, work permits, and compliance with immigration laws.',
+      price: '19.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_23_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 938,
+      name: 'Debt Collection and Recovery Service',
+      category: null,
+      description:
+        'Legal support to recover outstanding payments through negotiation or legal action.',
+      price: '15.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_24.jpg',
+      image2: null,
+      image3: null,
+    },
+  ],
+  categories: [],
+};
 
-export const additionalProducts = [
+export const phoneNumber = dataSite.telephone;
+export const address = dataSite.address;
+export const contactData = [
   {
-    id: 9,
-    price: '15.00',
-    name: 'Social Media Template Pack',
-    description:
-      'A pack of 10 professionally designed and fully customizable templates for Instagram posts and stories. The perfect tool to maintain a consistent and attractive feed with minimal effort.',
-    image: '/images/media.jpg',
-    stock: 5000,
-    features: [
-      '10 customizable templates (Canva/PSD)',
-      'Instagram Post & Story formats',
-      'Modern and clean design',
-      'Includes a quick-start guide',
-      'Boosts visual consistency',
-    ],
+    Icon: IoCall,
+    text: phoneNumber,
   },
   {
-    id: 10,
-    price: '9.00',
-    name: 'Brand Style Quick Guide',
-    description:
-      'A concise PDF guide that walks you through choosing the right colors, fonts, and imagery for your brand. Understand the basics of visual identity to communicate your message effectively.',
-    image: '/images/brand.jpg',
-    stock: 5000,
-    features: [
-      'Color psychology basics',
-      'Font pairing suggestions',
-      'How to create a mood board',
-      '5-step brand identity checklist',
-      'Printable PDF format',
-    ],
+    Icon: IoFileTraySharp,
+    text: address,
   },
   {
-    id: 11,
-    price: '7.00',
-    name: '50 Engaging Content Prompts',
-    description:
-      "Beat writer's block forever with this curated list of 50 content ideas and headline prompts for your blog, social media, and newsletters. Spark creativity and keep your audience engaged.",
-    image: '/images/prompt.jpg',
-    stock: 5000,
-    features: [
-      '20 blog post ideas',
-      '20 social media prompts',
-      '10 newsletter subject line formulas',
-      'Designed to boost engagement',
-      'Instant digital download',
-    ],
-  },
-  {
-    id: 12,
-    price: '12.00',
-    name: 'Starter Audio Pack for Videos',
-    description:
-      'A curated collection of 5 royalty-free background music tracks and 10 essential sound effects to give your video content a professional touch. Perfect for social media clips and corporate videos.',
-    image: '/images/audio.jpg',
-    stock: 5000,
-    features: [
-      '5 royalty-free music tracks',
-      '10 common sound effects (SFX)',
-      'High-quality MP3 files',
-      'Suitable for commercial use',
-      'Instant download link',
-    ],
-  },
-];
-export const categoriesData = [
-  {
-    name: 'Social Media',
-    image: '/images/social.svg',
-    id: 1,
-    items: [
-      'Community Management',
-      'Content Strategy',
-      'Ad Campaigns',
-      'Analytics',
-    ],
-  },
-  {
-    name: 'Marketing',
-    image: '/images/marketing.svg',
-    id: 2,
-    items: ['SEO & SEM', 'Email Marketing', 'Branding', 'Public Relations'],
-  },
-  {
-    name: 'Business',
-    image: '/images/business.svg',
-    id: 3,
-    items: ['E-commerce', 'Startup Planning', 'Project Management', 'Finance'],
-  },
-  {
-    name: 'Content Creator',
-    image: '/images/content.svg',
-    id: 4,
-    items: ['Video Production', 'Podcasting', 'Blogging', 'Live Streaming'],
-  },
-  {
-    name: 'Web and Mobile Development',
-    image: '/images/development.svg',
-    id: 5,
-    items: [
-      'React & Next.js',
-      'UI/UX Design',
-      'iOS & Android Apps',
-      'Backend APIs',
-    ],
-  },
-];
-
-export const references = [
-  {
-    title: 'María López',
-    description:
-      'This course on Creative Writing has transformed the way I approach content creation. The strategies and techniques taught have helped me engage my audience and create unique and compelling content for my business. Highly recommended!',
-  },
-  {
-    title: 'Carlos Rodríguez',
-    description:
-      'The Video Production course provided me with valuable skills in shooting and editing videos. I now have the confidence to create professional-looking videos for my business, and the storytelling techniques I learned have made a significant impact on my audience engagement.',
-  },
-  {
-    title: 'Laura Fernández',
-    description:
-      'I took the Social Media Marketing course, and it exceeded my expectations. The strategies and content creation tips shared were practical and effective. I now have a better understanding of how to leverage social media to grow my business and connect with my target audience.',
-  },
-  {
-    title: 'Diego Gómez',
-    description:
-      'The Graphic Design course was a game-changer for me. I learned the principles of design, color theory, and how to use design software effectively. Now I can create visually appealing designs that perfectly represent my brand. Thank you for this valuable course!',
-  },
-  {
-    title: 'Isabel Silva',
-    description:
-      'Brand Storytelling course helped me understand the power of storytelling in building a strong brand. I learned how to craft a compelling brand narrative that resonates with my customers. It has made a significant difference in how my brand is perceived in the market.',
+    text: email,
+    Icon: IoMail,
   },
 ];

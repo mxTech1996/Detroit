@@ -53,7 +53,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className='py-20 md:py-28 bg-stone-100'>
+    <section id='about' className='py-20 md:py-28 bg-stone-100'>
       <motion.div
         className='container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start'
         variants={sectionVariants}
