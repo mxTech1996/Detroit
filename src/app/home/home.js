@@ -17,7 +17,7 @@ export default function Home() {
       <AboutSection />
       <PracticeAreas />
       <WhyChooseUs />
-      <Products />
+      <Products isHome={true} />
       <Testimonials />
       <Footer />
     </div>

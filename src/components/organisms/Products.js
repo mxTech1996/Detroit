@@ -149,7 +149,6 @@ const Products = ({ isHome = true }) => {
                     navigation.push(`/contact`);
                     return;
                   }
-
                   handleAddOrRemoveProduct(study.id);
                 };
                 const validateInCart = validateProductInCart(study.id);
