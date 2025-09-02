@@ -59,64 +59,64 @@ const Products = ({ isHome = true }) => {
           whileInView='visible'
           viewport={{ once: true, amount: 0.2 }}
         >
-          {ProductsData.filter(
-            (product) => parseFloat(product.price) > 100
-          ).map((study, index) => {
-            const handleAddToCart = () => {
-              if (isHome) {
-                navigation.push(`/contact`);
-                return;
-              }
+          {ProductsData.filter((product) => parseFloat(product.price) > 50).map(
+            (study, index) => {
+              const handleAddToCart = () => {
+                if (isHome) {
+                  navigation.push(`/contact`);
+                  return;
+                }
 
-              handleAddOrRemoveProduct(study.id);
-            };
-            const validateInCart = validateProductInCart(study.id);
+                handleAddOrRemoveProduct(study.id);
+              };
+              const validateInCart = validateProductInCart(study.id);
 
-            return (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                whileHover={{ y: -5 }}
-                className='bg-white rounded-lg shadow-md hover:shadow-xl overflow-hidden flex flex-col transition-shadow duration-300'
-              >
-                <div className='w-full h-56 relative'>
-                  <Image
-                    src={study.image}
-                    alt={study.name}
-                    layout='fill'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='p-6 flex flex-col flex-grow'>
-                  <h3 className='text-xl font-bold text-slate-800 mb-3'>
-                    {study.name}
-                  </h3>
-                  <p className='text-gray-600 mb-4 flex-grow'>
-                    {study.description}
-                  </p>
-                  <p
-                    href='#'
-                    className='flex items-center gap-2 font-semibold text-amber-600 hover:text-amber-700 transition-colors'
-                  >
-                    {study.price} USD
-                  </p>
-                  {/* Add to cart button */}
-                  <button
-                    className={`mt-4 text-white font-semibold py-2 px-4 rounded-lg hover:bg-amber-700 transition-colors ${
-                      validateInCart ? 'bg-red-600' : 'bg-amber-600'
-                    }`}
-                    onClick={handleAddToCart}
-                  >
-                    {isHome
-                      ? 'Get a quote'
-                      : validateInCart
-                      ? 'Remove from Cart'
-                      : 'Add to Cart'}
-                  </button>
-                </div>
-              </motion.div>
-            );
-          })}
+              return (
+                <motion.div
+                  key={index}
+                  variants={itemVariants}
+                  whileHover={{ y: -5 }}
+                  className='bg-white rounded-lg shadow-md hover:shadow-xl overflow-hidden flex flex-col transition-shadow duration-300'
+                >
+                  <div className='w-full h-56 relative'>
+                    <Image
+                      src={study.image}
+                      alt={study.name}
+                      layout='fill'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='p-6 flex flex-col flex-grow'>
+                    <h3 className='text-xl font-bold text-slate-800 mb-3'>
+                      {study.name}
+                    </h3>
+                    <p className='text-gray-600 mb-4 flex-grow'>
+                      {study.description}
+                    </p>
+                    <p
+                      href='#'
+                      className='flex items-center gap-2 font-semibold text-amber-600 hover:text-amber-700 transition-colors'
+                    >
+                      {study.price} USD
+                    </p>
+                    {/* Add to cart button */}
+                    <button
+                      className={`mt-4 text-white font-semibold py-2 px-4 rounded-lg hover:bg-amber-700 transition-colors ${
+                        validateInCart ? 'bg-red-600' : 'bg-amber-600'
+                      }`}
+                      onClick={handleAddToCart}
+                    >
+                      {isHome
+                        ? 'Get a quote'
+                        : validateInCart
+                        ? 'Remove from Cart'
+                        : 'Add to Cart'}
+                    </button>
+                  </div>
+                </motion.div>
+              );
+            }
+          )}
         </motion.div>
 
         {/* additional products */}
@@ -142,7 +142,7 @@ const Products = ({ isHome = true }) => {
               viewport={{ once: true, amount: 0.2 }}
             >
               {ProductsData.filter(
-                (product) => parseFloat(product.price) < 100
+                (product) => parseFloat(product.price) < 50
               ).map((study, index) => {
                 const handleAddToCart = () => {
                   if (isHome) {
