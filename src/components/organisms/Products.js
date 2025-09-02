@@ -59,7 +59,9 @@ const Products = ({ isHome = true }) => {
           whileInView='visible'
           viewport={{ once: true, amount: 0.2 }}
         >
-          {ProductsData.slice(0, 8).map((study, index) => {
+          {ProductsData.filter(
+            (product) => parseFloat(product.price) > 100
+          ).map((study, index) => {
             const handleAddToCart = () => {
               if (isHome) {
                 navigation.push(`/contact`);
@@ -139,7 +141,9 @@ const Products = ({ isHome = true }) => {
               whileInView='visible'
               viewport={{ once: true, amount: 0.2 }}
             >
-              {ProductsData.slice(8, 13).map((study, index) => {
+              {ProductsData.filter(
+                (product) => parseFloat(product.price) < 100
+              ).map((study, index) => {
                 const handleAddToCart = () => {
                   if (isHome) {
                     navigation.push(`/contact`);
