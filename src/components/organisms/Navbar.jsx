@@ -41,7 +41,10 @@ const Navbar = ({ withAll = true, withCart = false, textBlack = false }) => {
           textBlack ? 'text-black' : 'text-white'
         }`}
       >
-        <div className='text-2xl font-bold'>Detroit</div>
+        <Link href='/' aria-label='Logo'>
+          <div className='text-2xl font-bold'>Detroit</div>
+        </Link>
+
         {withAll && (
           <nav className='hidden md:flex gap-8'>
             {navLinksWithHref.map((link) => (
