@@ -191,73 +191,12 @@ export const dataSite = {
   ],
   products: [
     {
-      id: 930,
-      name: 'Due Diligence Report Service',
-      category: null,
-      description:
-        'The Due Diligence Report Service provides a thorough and structured legal, financial, and operational review to support informed decision-making in mergers, acquisitions, partnerships, and major investments. This product ensures that clients have a complete understanding of potential risks, obligations, and opportunities before closing any transaction.',
-      price: '178.00',
-      stock: 100,
-      content: '',
-      product_type: 'NORMAL',
-      image:
-        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit__16_.jpg',
-      image2: null,
-      image3: null,
-    },
-    {
-      id: 928,
-      name: 'Legal Risk Assessment Report',
-      category: null,
-      description:
-        'The Legal Risk Assessment Report is a comprehensive analysis designed to help businesses identify, evaluate, and mitigate potential legal risks. It provides a structured evaluation of contracts, policies, regulatory compliance, and operational practices to ensure your company operates within legal boundaries and minimizes exposure to liability.',
-      price: '250.00',
-      stock: 100,
-      content: '',
-      product_type: 'NORMAL',
-      image:
-        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit._14.jpg',
-      image2: null,
-      image3: null,
-    },
-    {
-      id: 929,
-      name: 'Intellectual Property Registration Pack',
-      category: null,
-      description:
-        'The Intellectual Property (IP) Registration Pack is a comprehensive service package designed to help businesses, startups, and creators protect their innovations, brands, and creative works. It provides end-to-end support in registering trademarks, copyrights, and patents, ensuring that intellectual property rights are legally secured and enforced.',
-      price: '79.00',
-      stock: 100,
-      content: '',
-      product_type: 'NORMAL',
-      image:
-        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_15_.jpg',
-      image2: null,
-      image3: null,
-    },
-    {
-      id: 923,
-      name: 'Business Formation Package',
-      category: null,
-      description:
-        'Is a comprehensive service designed for entrepreneurs and companies seeking to establish a legal entity quickly, securely, and in full compliance with current regulations.',
-      price: '30.00',
-      stock: 100,
-      content:
-        'Personalized Initial Consultation,Evaluation of the most suitable entity type (LLC, Corporation, Partnership, etc.),Analysis of legal, tax, and liability protection benefits,Drafting and Filing of Legal Documents,Preparation of bylaws, articles of incorporation, or other required documents,Official filing with the relevant government authority,Business Name Search and Reservation,Verification of business name availability,Reservation of the name with the commercial registry or regulating entity.',
-      product_type: 'NORMAL',
-      image:
-        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_9_.jpg',
-      image2: null,
-      image3: null,
-    },
-    {
       id: 924,
       name: 'Contract Templates Bundle',
       category: null,
       description:
         'The Contract Templates Bundle is a legal package designed for businesses, entrepreneurs, and professionals who need clear, reliable, and ready-to-use contracts. This collection provides customizable documents that cover common business scenarios, helping protect legal interests and minimize risks without the need to draft agreements from scratch.',
-      price: '45.00',
+      price: '100.00',
       stock: 100,
       content: '',
       product_type: 'NORMAL',
@@ -272,7 +211,7 @@ export const dataSite = {
       category: null,
       description:
         'The Compliance Audit Kit is a comprehensive toolkit designed for businesses to assess, monitor, and ensure compliance with legal, regulatory, and industry standards. It provides structured guidance, checklists, and templates to identify gaps, mitigate risks, and maintain regulatory adherence effectively. Ideal for companies seeking to streamline internal audits and strengthen their compliance programs.',
-      price: '60.00',
+      price: '190.00',
       stock: 100,
       content: '',
       product_type: 'NORMAL',
@@ -302,7 +241,7 @@ export const dataSite = {
       category: null,
       description:
         'Detailed analysis of contracts, agreements, or policies before signing to ensure client protection.',
-      price: '10.00',
+      price: '189.00',
       stock: 100,
       content: '',
       product_type: 'NORMAL',
@@ -317,7 +256,7 @@ export const dataSite = {
       category: null,
       description:
         'Trademark Search and Filing\r\nAssistance with researching, registering, and maintaining trademarks.',
-      price: '25.00',
+      price: '140.00',
       stock: 100,
       content: '',
       product_type: 'NORMAL',
@@ -347,7 +286,7 @@ export const dataSite = {
       category: null,
       description:
         'Tailor made employment agreements that comply with labor laws.',
-      price: '13.00',
+      price: '100.00',
       stock: 100,
       content: '',
       product_type: 'NORMAL',
@@ -428,6 +367,67 @@ export const dataSite = {
       product_type: 'NORMAL',
       image:
         'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_24.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 929,
+      name: 'Intellectual Property Registration Pack',
+      category: null,
+      description:
+        'The Intellectual Property (IP) Registration Pack is a comprehensive service package designed to help businesses, startups, and creators protect their innovations, brands, and creative works. It provides end-to-end support in registering trademarks, copyrights, and patents, ensuring that intellectual property rights are legally secured and enforced.',
+      price: '156.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_15_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 928,
+      name: 'Legal Risk Assessment Report',
+      category: null,
+      description:
+        'The Legal Risk Assessment Report is a comprehensive analysis designed to help businesses identify, evaluate, and mitigate potential legal risks. It provides a structured evaluation of contracts, policies, regulatory compliance, and operational practices to ensure your company operates within legal boundaries and minimizes exposure to liability.',
+      price: '250.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit._14.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 930,
+      name: 'Due Diligence Report Service',
+      category: null,
+      description:
+        'The Due Diligence Report Service provides a thorough and structured legal, financial, and operational review to support informed decision-making in mergers, acquisitions, partnerships, and major investments. This product ensures that clients have a complete understanding of potential risks, obligations, and opportunities before closing any transaction.',
+      price: '178.00',
+      stock: 100,
+      content: '',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit__16_.jpg',
+      image2: null,
+      image3: null,
+    },
+    {
+      id: 923,
+      name: 'Business Formation Package',
+      category: null,
+      description:
+        'Is a comprehensive service designed for entrepreneurs and companies seeking to establish a legal entity quickly, securely, and in full compliance with current regulations.',
+      price: '220.00',
+      stock: 100,
+      content:
+        'Personalized Initial Consultation,Evaluation of the most suitable entity type (LLC, Corporation, Partnership, etc.),Analysis of legal, tax, and liability protection benefits,Drafting and Filing of Legal Documents,Preparation of bylaws, articles of incorporation, or other required documents,Official filing with the relevant government authority,Business Name Search and Reservation,Verification of business name availability,Reservation of the name with the commercial registry or regulating entity.',
+      product_type: 'NORMAL',
+      image:
+        'https://cms-webserver-statics.s3.amazonaws.com/media/products/detroit_9_.jpg',
       image2: null,
       image3: null,
     },
