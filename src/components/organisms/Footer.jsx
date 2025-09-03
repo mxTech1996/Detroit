@@ -133,11 +133,17 @@ const Footer = () => {
           <div className='text-center md:text-left'>
             <p>&copy; 2025 Detroit. All Rights Reserved.</p>
             <p className='mt-2'>
-              <a href='#' className='hover:text-amber-500 transition-colors'>
+              <a
+                href='/pdf/AP.DETROIT.SEPTIEMBRE.2025'
+                className='hover:text-amber-500 transition-colors'
+              >
                 Privacy Policy
               </a>{' '}
               |{' '}
-              <a href='#' className='hover:text-amber-500 transition-colors'>
+              <a
+                href='/TYC.DETROIT.SEPTIEMBRE.2025'
+                className='hover:text-amber-500 transition-colors'
+              >
                 Terms of Service
               </a>
             </p>
