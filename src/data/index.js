@@ -1,6 +1,6 @@
 export const pageName = 'Detroit';
 
-export const email = 'info@detroit.com';
+export const email = 'detroitlegal@emailsecure.lat';
 import { IoCall, IoFileTraySharp, IoMail } from 'react-icons/io5';
 
 export const navData = [
