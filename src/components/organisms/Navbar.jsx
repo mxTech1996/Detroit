@@ -59,8 +59,11 @@ const Navbar = ({ withAll = true, withCart = false, textBlack = false }) => {
           </nav>
         )}
         <div className='flex items-center gap-4'>
-          <LuPhone size={20} className='cursor-pointer hover:text-amber-500' />
-          <LuMail size={20} className='cursor-pointer hover:text-amber-500' />
+          {/* <LuPhone size={20} className='cursor-pointer hover:text-amber-500' /> */}
+
+          <Link href={'/contact'}>
+            <LuMail size={20} className='cursor-pointer hover:text-amber-500' />
+          </Link>
           {withCart && <CartButton />}
         </div>
       </div>
