@@ -134,14 +134,16 @@ const Footer = () => {
             <p>&copy; 2025 Detroit. All Rights Reserved.</p>
             <p className='mt-2'>
               <a
-                href='/pdf/AP.DETROIT.SEPTIEMBRE.2025'
+                target='_blank'
+                href='/pdf/AP.DETROIT.SEPTIEMBRE.2025.pdf'
                 className='hover:text-amber-500 transition-colors'
               >
                 Privacy Policy
               </a>{' '}
               |{' '}
               <a
-                href='/TYC.DETROIT.SEPTIEMBRE.2025'
+                target='_blank'
+                href='/TYC.DETROIT.SEPTIEMBRE.2025.pdf'
                 className='hover:text-amber-500 transition-colors'
               >
                 Terms of Service
