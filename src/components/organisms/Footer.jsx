@@ -143,7 +143,7 @@ const Footer = () => {
               |{' '}
               <a
                 target='_blank'
-                href='/TYC.DETROIT.SEPTIEMBRE.2025.pdf'
+                href='/pdf/TYC.DETROIT.SEPTIEMBRE.2025.pdf'
                 className='hover:text-amber-500 transition-colors'
               >
                 Terms of Service
